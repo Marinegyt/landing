@@ -1,0 +1,33 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 30px
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #F3D7CA;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #F3D7CA;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.text-center {
+  text-align: center;
+  color: #944E63;
+}
+
+.card h4 {
+  color: #944E63;
+}
